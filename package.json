@@ -1,0 +1,36 @@
+{
+  "name": "awl",
+  "version": "1.0.12",
+  "description": "FCA Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "prebuild": "npm version patch --force",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "filepond": "^3.3.2",
+    "filepond-plugin-image-exif-orientation": "^1.0.3",
+    "filepond-plugin-image-preview": "^3.1.4",
+    "next": "^7.0.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-filepond": "^5.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-ga": "^2.5.3",
+    "react-lightweight-tooltip": "^1.0.0",
+    "react-markdown": "^3.6.0",
+    "reactstrap": "^6.4.0"
+  },
+  "engines": {
+    "node": "~8.11.0",
+    "npm": "~6.1.4"
+  }
+}
